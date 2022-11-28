@@ -1,8 +1,11 @@
 # assignment
-
+```
 Swagger 주소  : http://localhost:8080/swagger-ui.html
-
+```
+```
 구현 방법     : Spring Security + JWT 와 JPA 로 RestFul API 구현
+```
+```
 테스트 방법   : 1. H2DB 생성
                     1) Embeded H2 DB 생성 후   : jdbc:h2:~/assignment
                     2) Sever H2 DB 생성       :  jdbc:h2:tcp://localhost/~/assignment
@@ -10,9 +13,12 @@ Swagger 주소  : http://localhost:8080/swagger-ui.html
                 3. Swagger 접속 후 테스팅 진행
                 4. 로그인, 회원가입을 제외한 나머지 API 는 헤더 에 로그인 결과로 나오는 JwtToken 토큰 설정이 필요합니다.
                    ![image](https://user-images.githubusercontent.com/50863392/204238611-82e80188-5ddb-47dc-855e-b3b11367d265.png)
-                   
+```
+```
 테스트 결과   : 구현 요구 사항 모두 정상 동작 확인하였습니다.
+```
 
+```
 구현 요구 사항
    - 회원 가입 API
         url           :    /user/signup
@@ -132,6 +138,6 @@ Swagger 주소  : http://localhost:8080/swagger-ui.html
         파라미터 예시
             -header 'Authorization: JwtToken'
             /article/1 
-            
+```            
             
          
